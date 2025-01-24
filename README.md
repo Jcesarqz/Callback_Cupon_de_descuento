@@ -21,10 +21,3 @@ Este proyecto ofrece una interfaz web que permite a los estudiantes obtener un 2
 - CSS
 - JavaScript
 
-## Uso
-
-1. Clona este repositorio.
-2. Abre `index.html` en tu navegador para probar la funcionalidad de obtención de cupones.
-
-### Nota:
-Este proyecto es ideal para estudiantes que busquen descuentos en materiales educativos. ¡Sigue aprendiendo y disfrutando del proceso!
