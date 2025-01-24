@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cupón para Estudiantes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 ¡Cupón de Descuento para Estudiantes! 📚</h1>
+    <p>Presiona el botón y obtén un descuento en libros, cursos o útiles escolares. 🎁</p>
+    <button id="get-coupon">¡Quiero mi descuento!</button>
+
+    <!-- Cargando -->
+    <div id="loading" class="hidden">
+      <div class="spinner"></div>
+      <p>🕒 Procesando tu solicitud... ¡es cuestión de segundos!</p>
+    </div>
+
+    <!-- Cupón -->
+    <div id="coupon" class="hidden">
+      <p>🎉 ¡Felicidades! Tu cupón de estudiante es: <strong id="coupon-code"></strong></p>
+      <p>🛒 Usa este código en nuestra tienda para un 20% de descuento en todo.</p>
+      <p>Valido para: Libros, útiles escolares y cursos online. ✨</p>
+    </div>
+  </div>
+  <footer>
+    <p>🌟 Tu esfuerzo merece recompensa. ¡Sigue aprendiendo y creciendo! 🚀</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

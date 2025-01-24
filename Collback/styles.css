@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #d1e8ff, #bee3db);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #3b82f6;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  button {
+    padding: 15px 25px;
+    background: #10b981;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: #059669;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .spinner {
+    margin: 20px auto;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3b82f6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  #coupon {
+    margin-top: 20px;
+    padding: 20px;
+    background: #d1fae5;
+    border-radius: 15px;
+    color: #065f46;
+    border: 1px solid #a7f3d0;
+  }
+  
